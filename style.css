@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque{
+    color: purple;
+    font-weight: bolder;
+}
+
+.princ{
+    text-align: center;
+    background-color: lightgray;
+}
+
+p{
+    font-size: 20px;;
+}
+
+.beneficios{
+    background-color: lightpink;
+}
+
+.lista-beneficios{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#beneficios{
+    text-align: center;
+}
+
+#img-beneficio{
+    width: 50%;
+}
+

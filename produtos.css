@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    background-color: rgba(9, 23, 49, 0.692);
+    border-radius: 0 0 20px 10px;
+    box-shadow: 3px 3px 10px rgba(9, 23, 49, 0.692);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Ramabhadra', sans-serif;
+    padding-left: 15px;
+    padding-right: 25px;
+    transition: .35s;
+}
+
+a:hover{
+    color: rgba(14, 21, 34, 0.642);
+    transition: .35s;
+}
+
+img{
+    padding: 15px;
+    width: 200px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+#ativo{
+    color: rgba(12, 20, 36, 0.973);
+}
+
+/*Main*/
+
+.produtos{
+    width: 970px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos > li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: rgba(14, 21, 34, 0.642);
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(9, 23, 49, 0.692);
+    height: 500px;
+    transition: .75s;
+    cursor: pointer;
+}
+
+li img{
+    transition: .75s;
+}
+
+li > h2{
+    transition: .75s;
+    padding: 20px 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+li:hover h2{
+    transition: .75s;
+    font-size: 30px;
+}
+
+li:hover img{
+    transition: .75s;
+    width: 225px;
+    height: 225px;
+}
+
+.produto-descricao{
+    font-size: 18px;
+    padding: 0 0 15px 0;
+}
+
+.valor{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+footer img{
+    width: 200px;
+}
